@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
   get 'events/index'
-  get 'pages/home'
+
+  resources :events
 
   root "pages#home"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
