@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Event.create(
+  title: "Sad Poetry Hour",
+  date: DateTime.now,
+  event_description: "Bring your saddest sad poetry to Daily Press Coffee at 38 Somers for Sad Poetry Hour starting at 7pm."
+)
+

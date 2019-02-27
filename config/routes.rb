@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'events/index'
+  get 'events' => 'events#index'
 
   resources :events
 
