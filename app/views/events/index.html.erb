@@ -1,16 +1,15 @@
 
-<div class="col">
-
-    <%= month_calendar do |date| %>
-      <%= date.strftime("%d") %>
-
-    <% @events.each do |event| %>
-      <div class="event">
-        <% if event.date.to_date == date %>
-          <%= event.title %>
-        <% end %>
-      </div>
-      <% end %>
-    <% end %>
-
-</div>
+<% @events.each do |event| %>
+  <div class="card" style="width: 30rem">
+    <div class="card-img-top">
+      <img src="" alt="">
+    </div>
+    <div class="card-header">
+      <h4 class="pl-3"> <%= event.title %> </h4>
+    </div>
+    
+    <div class="card-body">
+      <%= event.event_description %>
+    </div>
+  </div>
+<% end %>

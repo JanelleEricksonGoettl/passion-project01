@@ -1,0 +1,18 @@
+<% @events.each do |event| %>
+  <div class="card">
+    <div class="card-img-top">
+      <img src="" alt="">
+    </div>
+    <div class="card-heading">
+      <%= event.title %>
+    </div>
+    
+  </div>
+    <% @events.each do |event| %>
+      <div class="event">
+        <% if event.date.to_date == date %>
+          <%= event.title %>
+        <% end %>
+      </div>
+      <% end %>
+<% end %>

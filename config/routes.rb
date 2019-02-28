@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   get 'events' => 'events#index'
+  get 'calendar' => 'events#calendar'
 
   resources :events
 
