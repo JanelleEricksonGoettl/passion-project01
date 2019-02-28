@@ -1,0 +1,16 @@
+
+<div class="col">
+
+    <%= month_calendar do |date| %>
+      <%= date.strftime("%d") %>
+
+    <% @events.each do |event| %>
+      <div class="event">
+        <% if event.date.to_date == date %>
+          <%= event.title %>
+        <% end %>
+      </div>
+      <% end %>
+    <% end %>
+
+</div>
