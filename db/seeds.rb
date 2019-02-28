@@ -24,7 +24,7 @@ Event.create(
   title: "Genre Reassignment - Bishakh Som",
   date: DateTime.parse('6th Nov 2018'),
   event_description: "Bishakh Som is writer and illustrator whose work has appeared in The New Yorker, We're Still Here (The first all-trans comics anthology), The Other Side: An Anthology of Queer Paranormal Romance Comics, Beyond, vol. 2 (The Queer Post-Apocalyptic & Urban Fantasy Comics Anthology), The Strumpet, The Boston Review, Black Warrior Review, VICE, The Brooklyn Rail, Buzzfeed, Ink Brick, The Huffington Post, The Graphic Canon vol. 3 and Little Nemo: Dream Another Dream. She received the Xeric grant in 2003 for her comics collection Angel.",
-  image_url: "/images/events/2018-nov.jpg"
+  image_url: "app/assets/images/events/2018-dec.jpg"
 )
 
 Event.create(
@@ -35,7 +35,7 @@ Event.create(
   They’re a contributing writer to Lambda Literary Review, a grants advisory panelist for the New York State Council on The Arts, and have previously served as Scholastic Art & Writing Awards and Lambda Literary juror.
   
   Nahshon has recently completed their courageous and gut-wrenching memoir, Shooting Range which is currently being shopped around for a publishing deal.",
-  image_url: "/images/events/2018-dec.jpg"
+  image_url: "/assets/images/events/2018-dec.jpg"
 )
 
 Event.create(
