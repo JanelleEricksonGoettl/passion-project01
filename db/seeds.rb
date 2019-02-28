@@ -8,7 +8,21 @@
 
 Event.create(
   title: "Sad Poetry Hour",
-  date: DateTime.now,
-  event_description: "Bring your saddest sad poetry to Daily Press Coffee at 38 Somers for Sad Poetry Hour starting at 7pm."
+  date: ,
+  event_description: "Bring your saddest sad poetry to Daily Press Coffee at 38 Somers for Sad Poetry Hour starting at 7pm.",
+  image_url: ""
 )
 
+Event.create(
+  title: "",
+  date: ,
+  event_description: "",
+  image_url: ""
+)
+
+Event.create(
+  title: "",
+  date: ,
+  event_description: "",
+  image_url: ""
+)
