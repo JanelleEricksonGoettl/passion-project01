@@ -1,15 +1,20 @@
 
-<% @events.each do |event| %>
-  <div class="card" style="width: 30rem">
-    <div class="card-img-top">
-      <%= image_tag event.image_url %>
+<div class="pl-3">
+  <% @events.each do |event| %>
+    <div class="card" style="width: 400px">
+      <div class="card-img-top img-fluid">
+        <%= image_tag(event.image_url) %>
+      </div>
+      <div class="card-header">
+        <h4 class="pl-3"> <%= event.title %> </h4>
+      </div>
+      
+      <div class="card-body">
+        <%= event.event_description %>
+      </div>
+      <div class="card-footer">
+        <%= event.date.strftime('%A, %B %e, %Y') %>
+      </div>
     </div>
-    <div class="card-header">
-      <h4 class="pl-3"> <%= event.title %> </h4>
-    </div>
-    
-    <div class="card-body">
-      <%= event.event_description %>
-    </div>
-  </div>
-<% end %>
+  <% end %>
+</div>
